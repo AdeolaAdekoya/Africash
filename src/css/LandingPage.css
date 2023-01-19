@@ -1,0 +1,411 @@
+
+  
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src:
+         url(../assets/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Regular.ttf) ;
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: 
+         url(../assets/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Medium.ttf) ;
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: 
+         url(../assets/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Semibold.ttf) ;
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+
+ 
+  
+  @font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: local("ClashDisplay-Bold"),
+         url(../assets/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.ttf) ;
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "ClashDisplay-Regular", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  h1 {
+    font-family: "ClashDisplay-Bold", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  button {
+    font-family: "ClashDisplay-Medium", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  }
+  
+h3 {
+    font-family: "ClashDisplay-Semibold", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  }
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 120px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#navelements  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+#navelements ul li {
+  list-style-type: none;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+cursor: pointer;
+color: #5e7182;
+}
+
+.Login {
+  border: 1px solid #068353;
+border-radius: 200px;
+padding: 10px 20px;
+background: transparent;
+font-size: 16px;
+cursor: pointer;
+color: #068353;
+}
+
+.Signup {
+border-radius: 200px;
+padding: 10px 20px;
+background: #068353;
+cursor: pointer;
+font-size: 16px;
+border: none;
+color: #fff;
+}
+
+#hero-section {
+  display: flex;
+  margin: 124px 120px;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 100px; */
+ 
+}
+
+#hero-text{
+  z-index: 1;
+
+}
+
+#hero-section h1 {
+  font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+color: #262e35;
+margin-right: -50%;
+}
+
+#hero-section  p {
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+margin-top: 12px;
+color: #5e7182
+;
+}
+
+#hero-section button {
+  background: #068353;
+  color: #fff;
+  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+padding: 15px 20px;
+gap: 8px;
+border: none;
+border-radius: 200px;
+cursor: pointer;
+margin-top: 32px;
+}
+#hero-section button img {
+  width: 24px;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+#hero-img img {
+  width: 45vw;
+}
+
+#rows{
+  background: #EDF0F5;
+  min-height: 15vh;
+}
+
+#row-details {
+  padding: 24px 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 118px;
+  cursor: pointer;
+}
+
+#row-details  img {
+  filter: contrast(0%);
+}
+
+#row-details  img:hover {
+  filter: none;
+  transition:ease-in-out 0.3s linear;
+}
+
+.span-green {
+  color: #068353;
+}
+
+#features {
+  background: #FDFCFB;
+  min-height: 100vh;
+  padding: 104px 120px;
+}
+
+#features .text-aligned{
+ text-align: center;
+ font-size: 40px;
+line-height: 49px;
+color: #262e35;
+}
+
+#padding-section {
+  margin-top: 118px;
+}
+
+#image-one {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.features-copy h3 {
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+color: #262e35;
+}
+
+.features-copy p {
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+padding-top: 12px;
+color: #5e7182;
+padding-bottom: 28px;
+/* margin-right: 10%; */
+}
+
+.features-copy button {
+  display: flex;
+  font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+justify-content: center;
+align-items: center;
+color: #068353;
+border: none;
+background: none;
+cursor: pointer;
+
+}
+
+.features-copy button:hover {
+text-decoration: underline;
+text-underline-offset: 4px;
+}
+
+#image-features img {
+  width: 30vw;
+}
+
+
+#image-featuress img {
+  width: 25vw;
+}
+
+#shared-screen {
+  display: flex;
+}
+
+/* #shared-screen-pic{
+  min-height: 100vh;
+  
+} */
+
+.image-one {
+  width: 720px;
+height: 569px;
+background: url(../assets/benefits.svg);
+padding: 90px 0; 
+padding-left: 120px;
+
+}
+/* .text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.image-one h3 {
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+color: #FFFFFF;
+}
+
+.image-one  ul  {
+  padding-top: 24px;
+ 
+}
+
+
+.image-one  ul li {
+  display: flex;
+  justify-content: start;
+align-items: center;
+  gap: 12px;
+  color: #E6E6E6;
+  font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+padding-bottom: 32px;
+}
+
+.image-one button {
+  font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+color: #FFFFFF;
+background: none;
+border: none;
+margin-top: 24px;
+display: flex;
+gap: 12px;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+  
+
+.image-two {
+  width: 720px;
+  height: 569px;
+  background: url(../assets/imageSquare.svg);
+  padding: 70px 120px;
+ 
+}
+
+.image-body {
+  width: 100%;
+}
+
+.image-two img {
+
+  width: 40vw;
+}
+
+#testimonials {
+  background: #fff;
+  min-height: 100vh;
+  padding: 104px 120px;
+}
+
+#testimonials  h3 {
+  font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+color: #262e35;
+text-align: center;
+margin: 0 23%;
+}
+
+/* testimonials */
+
+
+
+ /* #card-containers{
+   overflow-x: scroll;
+  overflow-y: hidden;
+
+} */
+
+
+.testimonial-cards {
+  /* width: 487px;
+height: 371px; */
+/* display: inline-block;
+gap: 32px; */
+border: 1px solid #808080;
+border-radius: 8px;
+padding: 80px 32px;
+/* padding: 32px; */
+}
+
+#card-containers {
+  display: flex;
+  gap:  32px ;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* background:  rgb(0, 2, 18); */
+
+}
